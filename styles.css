@@ -1,0 +1,133 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+}
+
+body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #FFF;
+    margin: 0;
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: monospace;
+    margin-bottom: 0;
+    color: #c3c3c3;
+    /*background-color: #333333;*/
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
+
+h2 {
+    font-size: 6rem;
+    color: #c3c3c3;
+}
+
+a {
+    color: #477ca7;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+.extra {
+    font-size: 2.5rem;
+}
+
+#biografia {
+    background-color: #333333;
+    border: 20px solid #FFF;
+    text-align: justify;
+    font-size: 2.3rem;
+    margin: 0px 150px;
+    padding: 35px;
+}
+
+@media (max-width: 950px) {
+    #biografia{
+        margin: 0 25px;
+    }
+        #image {
+            display: inline-block;
+                width: 400px;
+        }
+}
+
+#main {
+    margin: 10px 5px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #282828;
+    /*background: #eee;*/
+}
+
+@media (max-width: 460px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#image-caption {
+    margin: 25px 0 10px 0;
+    font-size: 5rem;
+}
+
+@media (max-width: 460px) {
+    #img-caption {
+        font-size: 1.4rem;
+    }
+}
+
+#headline {
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+    font-size: 2rem;
+
+}
+
+#final {
+    font-size: 2rem;
+    color: FFF;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+blockquote {
+    font-size: 2.5rem;
+    font-style: italic;
+    max-width: 350px;
+    margin: 50px auto 80px auto;
+    text-align: left;
+}
